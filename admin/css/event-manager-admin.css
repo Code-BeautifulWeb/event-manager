@@ -1,0 +1,12 @@
+/**
+ * All CSS for the admin-specific functionality.
+ */
+#registerform #school_field {
+   line-height: 1.33333333;
+   width: 100%;
+   border-width: 0.0625rem;
+   padding: 0.1875rem 0.3125rem;
+   margin: 0 6px 16px 0;
+   min-height: 40px;
+   max-height: none;
+}

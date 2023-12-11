@@ -1,0 +1,72 @@
+/**
+ * All the CSS for public-facing functionality.
+ */
+
+#registerform #school_field {
+	line-height: 1.33333333;
+	width: 100%;
+	border-width: 0.0625rem;
+	padding: 0.1875rem 0.3125rem;
+	margin: 0 6px 16px 0;
+	min-height: 40px;
+	max-height: none;
+}
+
+.em-dashboard .em-dashboard-content table.form-school-details {
+	width: 100%;
+}
+
+.em-dashboard .em-dashboard-content table.form-school-details tr>td.label {
+	width: 35%;
+	font-size: 15px;
+	font-weight: 600;
+}
+
+.em-dashboard .em-dashboard-content table.form-school-details td {
+	padding: 5px 15px;
+	font-size: 15px;
+	font-weight: 400;
+}
+
+.em-dashboard .em-dashboard-content table.form-school-details,
+.em-dashboard .em-dashboard-content table.form-school-details th,
+.em-dashboard .em-dashboard-content table.form-school-details td {
+	border: 1px solid #edecec;
+	border-spacing: 0;
+	border-collapse: collapse;
+}
+
+.em-dashboard .em-dashboard-content {
+	width: 70%;
+	border: 1px solid #f1f1f1;
+}
+
+.em-dashboard .em-dashboard-nav ul>li:hover,
+.em-dashboard .em-dashboard-nav ul>li.active {
+	background: #e7e7e7;
+}
+
+.em-dashboard .em-dashboard-nav ul>li a {
+	text-decoration: none;
+}
+
+.em-dashboard .em-dashboard-nav ul>li {
+	padding: 12px 15px;
+	cursor: pointer;
+}
+
+.em-dashboard .em-dashboard-nav ul {
+	padding: 0;
+	list-style-type: none;
+}
+
+.em-dashboard .em-dashboard-nav {
+	width: 30%;
+	background: #f5f5f5;
+	margin-right: 20px;
+}
+
+.em-dashboard {
+	display: flex;
+	width: 100%;
+}
