@@ -13,7 +13,7 @@
 class Event_Manager_Activator {
 
 	public static function activate() {
-		
+		// Create events table
 		global $wpdb;
 		$table_name = $wpdb->prefix . 'events';
 		$charset_collate = $wpdb->get_charset_collate();
@@ -30,7 +30,7 @@ class Event_Manager_Activator {
 		require_once ABSPATH . 'wp-admin/includes/upgrade.php';
 		dbDelta( $sql );
 		
-		
+		// Create Dashboard page
 		$page_slug = 'em-dashboard';
 		$user_id = get_current_user_id();
 		$new_page = array(
