@@ -5,7 +5,7 @@
  * Plugin URI:        https://github.com/Code-BeautifulWeb/event-manager
  * Description:       An Event Management Plugin for Schools.
  * Version:           1.0.0
- * Author:            #
+ * Author:            Amit Rana
  * Author URI:        #
  * License:           GPL-2.0+
  * License URI:       http://www.gnu.org/licenses/gpl-2.0.txt
